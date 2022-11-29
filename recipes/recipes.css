@@ -1,0 +1,52 @@
+.title {
+  text-align: center;
+  font-family: Garamond, serif;
+  font-size: 52px;
+}
+.colour-tosilog {
+  color: whitesmoke;
+}
+.colour-chi {
+  color: rgb(24, 142, 24);
+}
+.colour-spi {
+  color: rgb(234, 71, 6);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 120px;
+}
+.center.smaller {
+  width: 30%;
+  height: 30%;
+}
+.background-img {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.tosilog {
+  background-image: url("../img/tosilog.jpg");
+}
+.yellow {
+  background-image: url(../img/yellow.jpg);
+}
+.spirited-away {
+  background-image: url(../img/spirited-away-feast.jpg);
+}
+
+.rest-of-text {
+  padding: 40px;
+  margin: 40px;
+  background: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 120px;
+  font-family: Garamond, serif;
+  font-size: 22px;
+  line-height: 1.3;
+}
